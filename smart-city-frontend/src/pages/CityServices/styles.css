@@ -1,0 +1,44 @@
+/* City Services Styles */
+.city-services-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service-form .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .service-form input[type="text"],
+  .service-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .service-list {
+    margin-top: 2rem;
+  }
+  
+  .service-item {
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    background-color: var(--light-color);
+  }
+  
+  .button-danger {
+    background-color: var(--danger-color);
+    color: #fff;
+  }
+  
+  .button-danger:hover {
+    background-color: #c82333;
+  }
+  

@@ -1,0 +1,67 @@
+/* SmartCityManagement/frontend/src/components/EmergencyContactsManager.css */
+
+.emergency-contacts {
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+  }
+  
+  .contacts-dropdown {
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .contacts-dropdown ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .contacts-dropdown li {
+    margin-bottom: 10px;
+  }
+  
+  .add-contact,
+  .edit-contact {
+    margin-top: 20px;
+  }
+  
+  .add-contact label,
+  .edit-contact label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .add-contact input,
+  .edit-contact input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .add-contact button,
+  .edit-contact button {
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .contact-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .contact-list li {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-list li button {
+    margin-left: 10px;
+  }
+  
